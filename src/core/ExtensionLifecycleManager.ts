@@ -105,7 +105,7 @@ export class ExtensionLifecycleManager {
      * Get current extension version
      */
     private getExtensionVersion(): string {
-        const extension = vscode.extensions.getExtension('kiro-dev.mirror-canvas');
+        const extension = vscode.extensions.getExtension('MoeenGulammohammadShaikh.mirror-canvas');
         return extension?.packageJSON.version || this.stateVersion;
     }
 
@@ -132,7 +132,7 @@ export class ExtensionLifecycleManager {
             'Learn More'
         ).then(selection => {
             if (selection === 'Learn More') {
-                vscode.env.openExternal(vscode.Uri.parse('https://github.com/kiro-dev/mirror-canvas'));
+                vscode.env.openExternal(vscode.Uri.parse('https://github.com/Moeen-19/mirror-canvas'));
             }
         });
     }
