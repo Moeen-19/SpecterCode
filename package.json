@@ -160,5 +160,9 @@
   "dependencies": {
     "@huggingface/inference": "^2.6.4",
     "better-sqlite3": "^8.7.0"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Moeen-19/SpecterCode.git"
+}
 }
