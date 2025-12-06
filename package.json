@@ -102,21 +102,27 @@
         "mirrorCanvas.theme": {
           "type": "string",
           "default": "halloween",
-          "enum": ["halloween", "rainy-forest", "cafe", "cave", "neon-city"],
+          "enum": [
+            "halloween",
+            "rainy-forest",
+            "cafe",
+            "cave",
+            "neon-city"
+          ],
           "description": "Active theme for MirrorCanvas"
         },
         "mirrorCanvas.emotionSensitivity": {
           "type": "number",
           "default": 0.7,
           "minimum": 0.1,
-          "maximum": 1.0,
+          "maximum": 1,
           "description": "Sensitivity of emotion detection (0.1 = low, 1.0 = high)"
         },
         "mirrorCanvas.animationIntensity": {
           "type": "number",
           "default": 0.8,
-          "minimum": 0.0,
-          "maximum": 1.0,
+          "minimum": 0,
+          "maximum": 1,
           "description": "Intensity of visual animations (0.0 = disabled, 1.0 = maximum)"
         },
         "mirrorCanvas.audioEnabled": {
@@ -127,8 +133,8 @@
         "mirrorCanvas.audioVolume": {
           "type": "number",
           "default": 0.3,
-          "minimum": 0.0,
-          "maximum": 1.0,
+          "minimum": 0,
+          "maximum": 1,
           "description": "Volume level for audio effects"
         }
       }
@@ -144,25 +150,25 @@
     "lint:fix": "eslint src --ext ts --fix"
   },
   "devDependencies": {
-    "@types/vscode": "^1.74.0",
-    "@types/node": "16.x",
     "@types/jest": "^29.5.0",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "eslint": "^8.28.0",
     "jest": "^29.5.0",
     "ts-jest": "^29.1.0",
-    "ts-loader": "^9.4.1",
+    "ts-loader": "^9.5.4",
     "typescript": "^4.9.4",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
+    "webpack": "^5.103.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "@huggingface/inference": "^2.6.4",
     "better-sqlite3": "^8.7.0"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Moeen-19/SpecterCode.git"
-}
+    "type": "git",
+    "url": "https://github.com/Moeen-19/SpecterCode.git"
+  }
 }
