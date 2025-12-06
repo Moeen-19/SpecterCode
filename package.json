@@ -3,7 +3,7 @@
   "displayName": "MirrorCanvas: The Living Interface",
   "description": "An intelligent, emotionally reactive code editor extension that transforms your workspace into a living mirror of your emotions and creative flow",
   "version": "0.1.0",
-  "publisher": "kiro-dev",
+  "publisher": "MoeenGulammohammadShaikh",
   "engines": {
     "vscode": "^1.74.0"
   },
